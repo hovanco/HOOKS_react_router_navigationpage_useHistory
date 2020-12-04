@@ -6,6 +6,10 @@ import Home from "./components/HOME/Home";
 import Notfound from "./components/NOTFOUND/Notfound";
 import "./App.css";
 
+// history.replace: from page3 to page1,
+// history.goBack: come back 1 page <==> history.go(-1),
+// history.goForward(): go to 1 page <==> history.go(1)
+
 function App() {
   return (
     <Router>

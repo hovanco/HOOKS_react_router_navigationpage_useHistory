@@ -25,6 +25,9 @@ function Home() {
   };
 
   const history = useHistory();
+  // history.replace: from page3 to page1,
+  // history.goBack: come back 1 page <==> history.go(-1),
+  // history.goForward(): go to 1 page <==> history.go(1)
 
   const navigationToAboutComponent = () => {
     history.push("/about");
