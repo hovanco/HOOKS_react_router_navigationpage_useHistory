@@ -1,0 +1,33 @@
+.btn-home-dashboard{
+  width: 200px;
+  height: 35px;
+  margin-top: 30px;
+  border: none;
+
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: deeppink;
+  background-color: aquamarine;
+
+  cursor: pointer;
+  outline:none;
+
+}
+
+.btn-about-dashboard{
+  width: 200px;
+  height: 35px;
+  margin-top: 30px;
+  border: none;
+
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(20, 181, 255);
+  background-color: cornflowerblue;
+
+  cursor: pointer;
+  outline:none;
+
+}
