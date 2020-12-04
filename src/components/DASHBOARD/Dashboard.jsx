@@ -25,12 +25,23 @@ function Dashboard() {
 
   const history = useHistory();
 
+  // replace: from page3 to page1, goBack: come back 1 page
+  // const navigationToHomePage = () => {
+  //   history.push("/");
+  // };
+  // const navigationToHomePage = () => {
+  //   // come back a page
+  //   history.goBack();
+  // };
   const navigationToHomePage = () => {
-    history.push("/");
+    history.replace("/");
   };
 
+  // const navigationToAboutPage = () => {
+  //   history.push("/about");
+  // };
   const navigationToAboutPage = () => {
-    history.push("/about");
+    history.replace("/about");
   };
 
   return (

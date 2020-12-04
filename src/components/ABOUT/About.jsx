@@ -25,8 +25,14 @@ function About() {
 
   const history = useHistory();
 
+  // const navigationToHomePage = () => {
+  //   history.push("/");
+  // };
+  // const navigationToHomePage = () => {
+  //   history.replace("/");
+  // };
   const navigationToHomePage = () => {
-    history.push("/");
+    history.goBack();
   };
 
   const navigationToDashboardPage = () => {

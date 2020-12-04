@@ -29,6 +29,9 @@ function Home() {
   const navigationToAboutComponent = () => {
     history.push("/about");
   };
+  // const navigationToAboutComponent = () => {
+  //   history.go(1);
+  // };
 
   const navigationToDashboardComponent = () => {
     history.push("/dashboard");
